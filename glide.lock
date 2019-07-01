@@ -1,0 +1,68 @@
+hash: 3f6e1de3306e3823e8ba96bb5cd02f9adf7405a4d4cc4198ba5b03c89bee33d1
+updated: 2019-07-01T12:28:34.558013063+12:00
+imports:
+- name: github.com/aws/aws-lambda-go
+  version: af0b813d5803d9754b920ed666b1cf8c16becfb3
+  subpackages:
+  - events
+  - lambda
+  - lambda/handlertrace
+  - lambda/messages
+  - lambdacontext
+- name: github.com/aws/aws-sdk-go
+  version: e8609b5f90982d7e69f00c611dd4e8a6c05e2f98
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/awsutil
+  - aws/client
+  - aws/client/metadata
+  - aws/corehandlers
+  - aws/credentials
+  - aws/credentials/ec2rolecreds
+  - aws/credentials/endpointcreds
+  - aws/credentials/processcreds
+  - aws/credentials/stscreds
+  - aws/csm
+  - aws/defaults
+  - aws/ec2metadata
+  - aws/endpoints
+  - aws/request
+  - aws/session
+  - aws/signer/v4
+  - internal/ini
+  - internal/s3err
+  - internal/sdkio
+  - internal/sdkrand
+  - internal/sdkuri
+  - internal/shareddefaults
+  - private/protocol
+  - private/protocol/eventstream
+  - private/protocol/eventstream/eventstreamapi
+  - private/protocol/json/jsonutil
+  - private/protocol/query
+  - private/protocol/query/queryutil
+  - private/protocol/rest
+  - private/protocol/restxml
+  - private/protocol/xml/xmlutil
+  - service/s3
+  - service/sts
+- name: github.com/EdlinOrg/prominentcolor
+  version: 185fe3ce2b6225f2123c3157d1a3aecc59450e95
+- name: github.com/jkl1337/go-chromath
+  version: 240283655afd229ac356153832055e56ffc6b802
+  subpackages:
+  - deltae
+- name: github.com/jmespath/go-jmespath
+  version: c2b33e8439af944379acbdd9c3a5fe0bc44bd8a5
+- name: github.com/lmammino/lambda-image-colors
+  version: 366b4d7faee82c20a5d3ba150b9afb2046ade21d
+  subpackages:
+  - cmd/utils
+- name: github.com/lucasb-eyer/go-colorful
+  version: 30298f24079860c4dee452fdef6519b362a4a026
+- name: github.com/nfnt/resize
+  version: 83c6a9932646f83e3267f353373d47347b6036b2
+- name: github.com/oliamb/cutter
+  version: 8d58efb5046ae961797a076be851b73182558d05
+testImports: []
