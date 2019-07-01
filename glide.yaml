@@ -1,0 +1,14 @@
+package: .
+import:
+- package: github.com/aws/aws-lambda-go
+  subpackages:
+  - events
+  - lambda
+- package: github.com/aws/aws-sdk-go
+  subpackages:
+  - aws
+  - aws/session
+  - service/s3
+- package: github.com/lmammino/lambda-image-colors
+  subpackages:
+  - cmd/utils
