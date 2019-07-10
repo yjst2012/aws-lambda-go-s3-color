@@ -59,7 +59,7 @@ func HandleRequest(ctx context.Context, event events.S3Event) error {
 		if err != nil {
 			return err
 		}
-		fmt.Printf("Indexing s3://%s/%s with colors -> %v\n", bucket, key, colors)
+		fmt.Printf("Tagging s3://%s/%s with colors -> %v\n", bucket, key, colors)
 		tags := []*s3.Tag{}
 		for i, color := range colors {
 			tagKey := fmt.Sprintf("Color%d", i+1)
