@@ -9,4 +9,4 @@ before_install:
 - sudo apt-get install -qq -y make
 install: true
 script: 
-- go build main.go
+- make build
